@@ -73,7 +73,7 @@
 
 // Maximum number of local IP addresses supported
 #ifndef MAXIMUM_NUMBER_OF_INTERNAL_IDS
-#define MAXIMUM_NUMBER_OF_INTERNAL_IDS 10
+#define MAXIMUM_NUMBER_OF_INTERNAL_IDS 20
 #endif
 
 #ifndef RakAssert

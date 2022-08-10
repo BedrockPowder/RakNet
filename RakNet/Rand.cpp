@@ -142,7 +142,7 @@ void seedMT( unsigned int seed, unsigned int *state, unsigned int *&next, int &l
 	// so-- that's why the only change I made is to restrict to odd seeds.
 	//
 
-    unsigned int x = ( seed | 1U ) & 0xFFFFFFFFU, *s = state;
+	unsigned int x = ( seed | 1U ) & 0xFFFFFFFFU, *s = state;
     int j;
 
 	for ( left = 0, *s++ = x, j = N; --j;
